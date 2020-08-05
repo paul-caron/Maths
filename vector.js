@@ -1,4 +1,4 @@
-class Vector {
+export class Vector {
     constructor(x, y, z, w=1) {
         this.x = x;
         this.y = y;
