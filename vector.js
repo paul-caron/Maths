@@ -43,5 +43,4 @@ class Vector {
     }
 }
 
-let vect = Vector;
-export vect;
+export {Vector as vect};
