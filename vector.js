@@ -1,6 +1,4 @@
-export const test = (a, b) => a + b;
-
-export class Vector {
+class Vector {
     constructor(x, y, z, w=1) {
         this.x = x;
         this.y = y;
@@ -44,3 +42,6 @@ export class Vector {
         this.x /= l; this.y /= l; this.z /= l;
     }
 }
+
+let vect = Vector;
+export vect;
