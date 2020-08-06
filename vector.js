@@ -1,3 +1,5 @@
+export const test = (a, b) => a + b;
+
 export class Vector {
     constructor(x, y, z, w=1) {
         this.x = x;
